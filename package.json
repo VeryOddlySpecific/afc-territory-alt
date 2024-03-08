@@ -1,0 +1,17 @@
+{
+  "name": "afc-territory",
+  "version": "1.0.0",
+  "description": "When the admin page loads, this app will display a panel consisting of the following elements:\r - Region Selector \r     - to select which regions/states are active\r - Map Legend \r     - to show which branches there are \r     - to show what color the branch is\r     - to allow the user to focus the view on a particular branch\r - Subregion Data \r     - to allow the user to:\r         - clear the active selection of subregions\r         - save the map's current state to the database\r         - print the map to a .png file\r     - to allow the user to:\r         - see a list of names of the currently selected counties\r         - activate or deactivate those counties\r         - assign selected counties to a particular branch\r         - add restrictions to the selected counties\r - Map Display\r     - displays:\r         - active regions\r         - all subregions within active regions\r         - altered styles for active subregions, and subregions with restrictions",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/element": "^5.30.0",
+    "@wordpress/scripts": "^27.3.0"
+  }
+}
